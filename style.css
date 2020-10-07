@@ -1,0 +1,61 @@
+
+a:link{color: black}
+
+a:visited{color:gray}
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  color:black;
+  text-align:center;
+  font-family:courier;
+  padding:15px;
+  border: 1px solid black;
+}
+
+#contact_info {
+  color:black;
+  font-family:courier;
+  font-size:20px;
+  margin-left: 5%;
+  display:inline-block;
+  border-style: hidden;
+  float:left;
+}
+
+.contact_us_title {
+  color:black;
+  display:inline-block;
+  font-size:30px;
+  font-family:courier;
+  margin-left: 5%;
+}
+
+.left_section {
+  color:white;
+  text-align:center;
+  font-size:20px;
+  float:left;
+  border-style:solid;
+  border-color:rgb(66, 69, 245);
+  background-color:rgb(100,100,100);
+  height:75%;
+  width:33%;
+  padding:15px;
+}
+
+.middle_section {
+  border: 1px solid black;
+  width:33%;
+  padding:15px;
+  float:left;
+}
+
+.services_offered {
+  border: 1px solid black;
+  width:33%;
+  padding:15px;
+  float:right;
+}
